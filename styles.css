@@ -21,7 +21,7 @@ body {
     width: 25%;
     background-color: white;
     padding: 20px;
-	/* border:1px solid black; */
+    border-radius: 5px; /* Add border radius to match image */
 }
 
 .latest-news-section ul {
@@ -33,6 +33,7 @@ body {
     width: 40%;
     background-color: white;
     padding: 20px;
+    border-radius: 5px; /* Add border radius to match image */
 }
 
 .pictorial-news-section {
@@ -47,7 +48,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-	
 }
 
 .pictorial-news-section img {
