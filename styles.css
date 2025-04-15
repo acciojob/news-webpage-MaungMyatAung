@@ -1,49 +1,56 @@
-/*  your css code here. If applicable */
-/* Body */
 body {
-  background-color: #f5f5f5;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
+    background-color: #f5f5f5; /* Body background color */
+    font-family: sans-serif;
+    margin: 0;
 }
 
-/* Header */
 .header {
-  background-color: #011e29;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
+    background-color: #011e29; /* Header background color */
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-/* Latest News Section */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
 .latest-news-section {
-  background-color: white;
-  width: 80%;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.latest-news-section h3 {
-  margin-bottom: 15px;
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+	/* border:1px solid black; */
 }
 
 .latest-news-section ul {
-  list-style-type: disc;
-  padding-left: 20px;
+    list-style: none;
+    padding: 0;
 }
 
-/* Pictorial News Section */
+.main-article {
+    width: 40%;
+    background-color: white;
+    padding: 20px;
+}
+
 .pictorial-news-section {
-  background-color: white;
-  width: 80%;
-  margin: 20px auto;
-  padding: 20px;
-  text-align: center;
-  border-radius: 8px;
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+	
 }
 
 .pictorial-news-section img {
-  margin: 10px;
-  border-radius: 4px;
+    max-width: 100%;
+    height: auto;
 }
