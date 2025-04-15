@@ -25,8 +25,8 @@ body {
 }
 
 .latest-news-section ul {
-    list-style: none;
     padding: 0;
+	text-align:center;
 }
 
 .main-article {
