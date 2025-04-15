@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+	text-align:center;
 }
 
 .latest-news-section {
@@ -26,7 +27,7 @@ body {
 
 .latest-news-section ul {
     padding: 0;
-	text-align:center;
+	/* text-align:center; */
 }
 
 .main-article {
